@@ -1,0 +1,772 @@
+
+/*nav bar styling */
+.nav-bar{
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 4em;
+  position: sticky;
+  top: 0;
+}
+
+.nav-button{
+  color: white;
+  background-color: Transparent;
+  border: none;
+  font-size: 250%;
+  margin-bottom: 20px;
+}
+
+.nav-button:hover{
+  cursor: pointer;
+}
+.nav-bar img{
+  width: 65%;
+  height: 70%;
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
+
+.navigation-m{
+  margin-right: 35px;
+  background-color: black;
+  color: red;
+  z-index: 6;
+}
+
+.navigation-m nav{
+  background-color: black;
+}
+.navigation-m nav a {
+  color: crimson;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 90%;
+
+}
+.navigation-m nav li {
+  list-style-type: none;
+  padding: 1px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/*css styling for the header images */
+.shop{
+  width: 100%;
+  height: 100%;
+  padding-top: 5px;
+}
+
+.dshop{
+  display: none;
+}
+
+.dishop{
+  display: none;
+}
+
+/*site general paragraph, heading, image css*/
+ body{
+  background-color: white;
+  /* font-family: tahoma, sans-serif; */
+}
+
+h1{
+  color: black;
+  /* text-shadow: 2px 2px crimson ; */
+  text-align: center;
+  font-size: 30px;
+}
+
+h2{
+  color: crimson;
+  font-size: 26px;
+}
+
+h3{
+  font-size: 18px;
+}
+em, .bold, .via{
+  color: crimson;
+  font-style: normal;
+  font-weight: bold;
+}
+em,.via{
+  font-size: 16px;
+}
+.bold{
+  font-size: 18px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+
+/*home-page coding and testimonials*/
+}
+.tcd, .intro, .testimonials{
+  color: black;
+}
+.intro{
+  text-align: center;
+}
+.columns{
+  flex-direction: column;
+}
+.column{
+  flex: 100%;
+}
+.customer-testimonial{
+  border: 2px solid crimson;
+  margin: 10px;
+}
+.customer-testimonial p{
+  font-size: 16px;
+}
+
+.c-test-button{
+  border: none;
+  border-radius: 5px;
+  font-family: serif;
+  font-size: 15px;
+}
+.c-test-button:hover{
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+}
+
+
+.home,.footer-img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servlink, .servlink:visited{
+  color: crimson;
+}
+.servlink:hover{
+  color: #8B0000;
+}
+
+
+
+/*specific styling for the Autobody repair page*/
+
+/*site css for services border and color*/
+.services-info{
+border-left: solid slategrey;
+padding-left: 10px;
+margin-right: 25px;
+}
+
+
+/*site css for amenitites border and color*/
+.amenities-info{
+  border-right: solid slategrey;
+  background-color: lightgrey;
+  padding-left: 10px;
+  margin-left: 25px;
+}
+
+/*site css for certifications border and color*/
+.certifications-info{
+  border-left: solid slategrey;
+  padding-left: 10px;
+  margin-right: 25px;
+
+}
+
+
+/*certification styling (for interactivity as well)*/
+
+.cert-button-style button{
+  text-decoration: underline;
+  color: crimson;
+}
+
+.cert-button-style button:hover{
+  color: maroon;
+  cursor: pointer;
+}
+
+.cert{
+  background-color: Transparent;
+  border: none;
+
+}
+
+.modal{
+
+  background-color: rgba(232,231,231, 0.7);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+}
+
+ .modal-content{
+  position: absolute;
+  background-color: rgba(0,2,3, 0.4);
+  border: 1px solid black;
+   display: flex;
+   flex-direction: row;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 20px;
+   width: 400px;
+
+
+
+ }
+
+
+.modal-content img{
+  width: 95% !important;
+  height: 95% !important;
+  margin: auto;
+  display: block;
+
+}
+
+
+.modal-content button{
+font-size: 20px;
+color: slategrey;
+background-color:rgba(232,231,231);
+border: 1px solid slategrey;
+width: 30px;
+height: 30px;
+
+}
+
+.modal-content button:hover{
+  cursor: pointer;
+  background-color: darkgrey;
+}
+
+
+
+/*site css for decorative images on services page*/
+.decor-img{
+  width: 100%;
+  height: 350px;
+  opacity: .85;
+}
+
+
+/*site css for slideshow section border and color*/
+.autobody{
+  border-right: solid slategrey;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+/*site css for slideshow (interactivity css also)*/
+.service-slides img{
+  width: 80%;
+  height: 80%;
+   align-items: center;
+   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.service-slides{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.service-slides button{
+  background-color: Transparent;
+  border: none;
+  font-size: 350%;
+  color: black;
+  cursor: pointer;
+}
+
+.service-slides button:hover{
+  cursor: pointer;
+  color: crimson;
+}
+
+.slides{
+  width: 70%;
+  height: 70%;
+}
+
+/*slide show dots css (for interactivity as well)*/
+
+.dot-layout{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.dot-layout button:hover{
+  color: crimson;
+  cursor: pointer;
+}
+
+
+.dots{
+  background-color: Transparent;
+  font-size: 150%;
+  border: none;
+  color: black;
+
+}
+
+
+
+/*css styling for the about us page*/
+
+#aboutustop{
+  background-color: lightgrey;
+}
+#aboutusbottom{
+  background-color: #ededed;
+}
+.aboutbutton{
+  background-color: Transparent;
+  border: none;
+  font-size: 350%;
+  color: black;
+  cursor: pointer;
+}
+
+.aboutbutton:hover{
+  cursor: pointer;
+  color: crimson;
+}
+
+#aboutusslides{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+#aboutusslides img{
+  width: 80%;
+  height: 80%;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
+#aboutusimages{
+  justify-content: center;
+}
+.aboutdots{
+  background-color: Transparent;
+  font-size: 150%;
+  border: none;
+  color: black;
+}
+.aboutus-all{
+  margin-top:10px;
+}
+
+.aboutus-all h2{
+  text-align: center;
+}
+.aboutus-all img{
+  width:100%;
+}
+.aboutus-one{
+  border-left: solid slategrey;
+  padding-left: 10px;
+  margin-right: 70px;
+  background-color: lightgrey;
+}
+.aboutus-two{
+  border-right: solid slategrey;
+  background-color: lightgrey;
+  /* text-align: right; */
+  padding-left: 10px;
+  margin-left: 70px;
+}
+
+
+
+
+/*css styling for the warranities and rights page*/
+.warranty-info {
+border-left: solid slategrey;
+padding-left: 10px;
+margin-right: 25px;
+background-color: lightgrey;
+}
+
+/* .warranty-info h3 {
+    margin-left: 7px;
+}
+
+.warranty-info p {
+    margin-left: 17px;
+} */
+
+.rights-info{
+border-left: solid slategrey;
+padding-left: 10px;
+margin-right: 25px;
+background-color: lightgrey;
+}
+
+.rights h2{
+  text-align: center;
+}
+
+.warranty h2{
+  text-align: center;
+}
+
+.lwarranty-info{
+  border-right: solid slategrey;
+  background-color: lightgrey;
+  /* text-align: right; */
+  padding-left: 10px;
+  margin-left: 25px;
+}
+
+.decor-img-benefits{
+  width: 100%;
+  height: 350px;
+  opacity: .85;
+}
+
+
+
+
+.hidden{
+
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+
+}
+
+.dotChange{
+  font-size: 200%;
+  color: crimson;
+}
+
+
+
+
+
+
+
+@media (min-width: 700px){
+
+
+.columns{
+  display: flex;
+  flex-direction: row;
+}
+.column{
+  flex: 50%;
+}
+#ayvaride{
+  margin-left: 10px;
+  width: 450px;
+}
+
+
+.navigation-m nav a {
+  color: crimson;
+  text-decoration: none;
+  padding: 2px;
+  font-size: 90%;
+
+}
+
+  /* navigationb for desktop code */
+.navigation-m nav li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+.nav-bar img{
+  width: 35%;
+}
+
+
+.navigation-m nav{
+  background-color: Transparent;
+  width: 300%;
+
+}
+
+
+  /* header image styling*/
+
+.shop{
+  display:none;
+}
+
+.dshop{
+  display: block;
+  width: 98%;
+  height:400px;
+  margin-left: 15px;
+  filter: blur(3.5px);
+}
+
+.dishop{
+  display: block;
+  width: 98%;
+  height:400px;
+  margin-left: 15px;
+
+}
+
+
+
+
+.hero-text{
+   z-index: 2;
+   text-align: center !important;
+   position: absolute;
+   top: 160px;
+   background-color: rgba(0,2,3, 0.4);
+   border: 2px solid white;
+   padding-left: 10px;
+   padding-right: 10px;
+   left: 35%;
+   right: 35%;
+
+
+
+
+
+ }
+ .hero-text h1{
+ font-size: 300%;
+ color: white;
+ }
+
+  /* decorative images styling */
+.decor-img {
+ height: 100%;
+}
+
+  /* footer styling */
+.foot{
+background-color: black;
+width:100%;
+
+
+}
+.footer-img{
+  height: 280px;
+  width: 65%;
+
+}
+
+  /* Auto body work page styling */
+  /* basic styling*/
+.services{
+  display: flex;
+  flex-direction: row;
+  margin-right: 5px;
+
+}
+.services-info{
+  /* width: 4000px; */
+  width: 60%;
+  margin: auto;
+  margin-right: 15px;
+  /* background-color:green; */
+
+}
+
+.services-img{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.amenities{
+  display: flex;
+  flex-direction: row-reverse;
+  border-right: solid slategrey;
+  background-color: lightgrey;
+
+}
+.amenities-info{
+  width: 60%;
+  margin: auto;
+  margin-left: 15px;
+
+}
+
+.certifications{
+  display: flex;
+  flex-direction: row;
+    margin-right: 5px;
+}
+
+
+
+.certifications-info{
+
+  width: 60%;
+  margin: auto;
+  margin-right: 15px;
+
+
+}
+
+
+.autobody-info h2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.autobody-info p{
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-bottom: 30px;
+
+}
+
+  /* slide interactivty for services page etc */
+
+.slides{
+  width: 50%;
+  height: 50%;
+}
+
+  /* modal interactivity coding for services page */
+.modal-content{
+  width: 750px;
+
+}
+
+.modal-content img{
+ width: 130% !important;
+ height: 130% !important;
+
+
+}
+
+
+.modal-content button{
+width: 40px;
+height: 40px;
+
+}
+
+.strong{
+  text-align: center;
+}
+
+  /* benefits page styling */
+.o-warranty-info{
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.total-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  margin-right: 25px;
+  margin-left: 20px;
+  width:120%;
+  border: 2px solid crimson;
+    background-color: lightgrey;
+
+
+}
+.lwarranty-info{
+  border: none;
+  background-color: Transparent;
+  margin: auto;
+}
+.warranty-info{
+  border: none;
+  background-color: Transparent;
+  margin: auto;
+  margin-left: 5px;
+  padding:0px;
+}
+
+.decor-img-benefits{
+  height: 350px;
+  opacity: .85;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.rights-info{
+  border: none;
+  margin: auto;
+  background-color: Transparent;
+  border: 2px solid crimson;
+    background-color: lightgrey;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.rights h3{
+  text-align: center;
+}
+
+
+  /* coding for the about us page*/
+
+.aboutus-all{
+  border: none;
+  background-color: white;
+  padding: 0px;
+  margin-left: 15px;;
+}
+
+
+ .aboutus-one{
+   border: none;
+   background-color: white;
+  padding: 0px;
+  margin-left: 10px;;
+
+ }
+
+ .aboutus-two{
+   border: none;
+   background-color: white;
+   padding: 0px;
+   margin-left: 10px;;
+ }
+
+}
